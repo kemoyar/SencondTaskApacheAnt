@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="war">
+	<property name="tomcat" value="C:\Program Files\Apache Software Foundation\Tomcat 10.1"/>
+	<property name="tomcatDeployment" value="${tomcat}/webapps"/>
+	<property name="tomcatBin" value="${tomcat}/bin"/>
+	<property name="base" value="."/>
+	<property name="source" value="${base}/src"/>
+	
+	<target name="war">
+		<war destfile="${base}/welcome.war" needxmlfile="false">
+			<fileset dir="${source}/webFiles"/>
+		</war>
+	</target>
+
+
+
+
+</project>
