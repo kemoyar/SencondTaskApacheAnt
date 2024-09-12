@@ -7,6 +7,6 @@
 <title>test</title>
 </head>
 <body>
- <h1>War and Deploy on Tomcat</h1>
+ <h1>War and Deploy on Tomcat1</h1>
 </body>
 </html>
